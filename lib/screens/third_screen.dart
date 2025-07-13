@@ -89,8 +89,9 @@ class _ThirdScreenState extends State<ThirdScreen> {
                             leading: CircleAvatar(
                               radius: 24.5,
                               backgroundColor: Colors.grey[200],
-                              backgroundImage:
-                                  const AssetImage('assets/images/photo.jpg'),
+                              backgroundImage: user.avatar.isNotEmpty
+                                  ? NetworkImage(user.avatar) as ImageProvider
+                                  : const AssetImage('assets/images/photo.jpg'),
                             ),
                             title: Text(
                               '${user.firstName} ${user.lastName}',
