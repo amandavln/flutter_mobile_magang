@@ -35,14 +35,14 @@ class UserProvider with ChangeNotifier {
 
     // Dummy data custom
     List<User> dummyUsers = [
-      User(id: 1, email: 'imhel@gmail.com', firstName: 'Imhammel', lastName: 'Agsafar', avatar: ''),
-      User(id: 2, email: 'amanda.novalina@gmail.com', firstName: 'Amanda', lastName: 'Novalina', avatar: ''),
-      User(id: 3, email: 'm.hanafi@gmail.com', firstName: 'Muhammad', lastName: 'Hanafi', avatar: ''),
-      User(id: 4, email: 'caramel@gmail.com', firstName: 'Caramel', lastName: 'Keisya', avatar: ''),
-      User(id: 5, email: 'laura@gmail.com', firstName: 'Valaurrent', lastName: 'Graviella', avatar: ''),
-      User(id: 6, email: 'keano@gmail.com', firstName: 'Keano', lastName: 'Altezza', avatar: ''),
-      User(id: 7, email: 'zavant@gmail.com', firstName: 'Zavant', lastName: 'Givanno', avatar: ''),
-      User(id: 8, email: 'steven@gmail.com', firstName: 'Steven', lastName: 'Alexander', avatar: ''),
+      User(id: 1, email: 'rala@email.com', firstName: 'Rafika', lastName: 'Widalala', avatar: ''),
+      User(id: 2, email: 'lisa@email.com', firstName: 'Lalisa', lastName: 'Manoban', avatar: ''),
+      User(id: 3, email: 'juhar@email.com', firstName: 'Juhar', lastName: 'Ananda', avatar: ''),
+      User(id: 4, email: 'jennie@email.com', firstName: 'Kim', lastName: 'Jennie', avatar: ''),
+      User(id: 5, email: 'yura@email.com', firstName: 'Yura', lastName: 'Yunani', avatar: ''),
+      User(id: 6, email: 'ronald@email.com', firstName: 'Ronald', lastName: 'Patrick', avatar: ''),
+      User(id: 7, email: 'keisha@email.com', firstName: 'Keisha', lastName: 'Valery', avatar: ''),
+      User(id: 8, email: 'jason@email.com', firstName: 'Jason', lastName: 'Yohannes', avatar: ''),
     ];
 
     await Future.delayed(const Duration(milliseconds: 500));
